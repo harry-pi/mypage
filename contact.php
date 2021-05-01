@@ -11,7 +11,7 @@
    }
   else
   {
-    mail("hp523674@gmail.com","portifolio $message","From: $name <$email>");
+    mail("hp523674@gmail.com","port", $message,"From: $name <$email>");
      
      echo "<script type= 'text/javascript'>alert('message sent successfully');
           window.history.log(-1);
